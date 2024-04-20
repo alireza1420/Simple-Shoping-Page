@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Product Page </title>
+    <link rel="stylesheet" href="./css/style.css">
+    <h4>Sample  Product Page</h4>
+</header>
+<body>
+
+    <main>
+        <div id="search">
+            <input placeholder="Search for products..." id="search-input" type="text"/>
+            <div>
+                <button class="filter" data-filter="all">All</button>
+                <button class="filter" data-filter="clothing">Clothing</button>
+                <button class="filter" data-filter="tech">Tech</button>
+                <button class="filter" data-filter="health">Health</button>
+                
+            </div>
+            <div>
+                <input type="number" placeholder="Search for Price" id="price-range">
+            </div>
+        </div>
+        <div id="products">
+            <div class="product-item" data-category="tech">
+                <img src="./img/iphone.png" alt="iphone">
+                <p>Apple Iphone 14 Pro</p>
+                <span>$ 1499</span>
+            </div>
+          
+            <div class="product-item"  data-category="clothing">
+                <img src="./img/shoes.png" alt="iphone">
+                <p>Running Shoes</p>
+                <span>$ 199</span>
+            </div>
+            <div class="product-item"  data-category="tech">
+                <img src="./img/watch.png" alt="iphone">
+                <p>Apple wathc </p>
+                <span>$ 139</span>
+            </div>
+            <div class="product-item"   data-category="clothing">
+                <img src="./img/jacket.png" alt="iphone">
+                <p>Boys Jacket</p>
+                <span>$ 169</span>
+            </div>
+            <div class="product-item" data-category="health">
+                <img src="./img/shampoo.png" alt="iphone">
+                <p>Kreating Hair care</p>
+                <span>$ 39</span>
+            </div>
+            
+            <div class="product-item" data-category="tech">
+                <img src="./img/airpods.png" alt="iphone">
+                <p>Apple air pods pro</p>
+                <span>$ 299</span>
+            </div>
+            <div class="product-item" data-category="health">
+                <img src="./img/vitamin.png" alt="iphone">
+                <p>Vitamin E</p>
+                <span>$ 39</span>
+            </div>
+            <div class="product-item" data-category="health">
+                <img src="./img/cream.png" alt="iphone">
+                <p>Face Cream</p>
+                <span>$ 39</span>
+            </div>
+        </div>
+
+    </main>
+    <script src="./js/app.js"></script>
+</body>
+</html>
